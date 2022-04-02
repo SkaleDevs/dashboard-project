@@ -1,13 +1,12 @@
-import { Button } from '@mui/material'
-import './App.css'
+import "./App.css";
+import Navbar from "./components/Navbar";
 
 function App() {
-
   return (
-    <div className=" min-h-screen background">
-     <h1>Hello Woeld</h1>
+    <div className="min-h-screen background">
+      <Navbar />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
