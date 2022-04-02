@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div className=" min-h-screen background">
-     <h1>Hello Woeld</h1>
+     <h1>Hello World this is my</h1>
     </div>
   )
 }
