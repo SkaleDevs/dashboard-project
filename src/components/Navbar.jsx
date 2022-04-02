@@ -1,3 +1,4 @@
+import { color } from "@mui/system";
 import React from "react";
 import xboxLogo from "../images/xbox.png";
 
@@ -7,7 +8,7 @@ const Navbar = () => {
       <button className=" px-4">
         <img src={xboxLogo} alt="xbox logo" className="w-10 h-9" />
       </button>
-      <div className=" my-[200px] ml-[10.5px]">
+      <div className=" my-[140px] ml-[10.5px]">
         <button className=" my-3 rounded-full hover:bg-[#3DBDA7] transition duration-200 ease-in px-3 py-3">
           <svg
             width="24"
@@ -41,7 +42,36 @@ const Navbar = () => {
             />
           </svg>
         </button>
-        <button className=" my-3 rounded-full hover:bg-[#3DBDA7] transition duration-200 ease-in px-3 py-4">
+        <button className=" my-3 rounded-full hover:bg-[#3DBDA7] transition duration-200 ease-in px-3.5 py-4">
+          <svg
+            width="30"
+            height="28"
+            viewBox="0 0 36 33"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18 14.4166H13.25M18 9.66663V14.4166V9.66663ZM18 14.4166V19.1666V14.4166ZM18 14.4166H22.75H18Z"
+              stroke="white"
+              stroke-width="3.16667"
+              stroke-linecap="round"
+            />
+            <path
+              d="M21.1667 27.0833C27.1374 27.0833 30.1236 27.0833 31.9777 25.2277C33.8333 23.3736 33.8333 20.3874 33.8333 14.4167C33.8333 8.44592 33.8333 5.45975 31.9777 3.60567C30.1236 1.75 27.1374 1.75 21.1667 1.75H14.8333C8.86257 1.75 5.87641 1.75 4.02232 3.60567C2.16666 5.45975 2.16666 8.44592 2.16666 14.4167C2.16666 20.3874 2.16666 23.3736 4.02232 25.2277C5.05624 26.2632 6.44166 26.7208 8.49999 26.9218"
+              stroke="white"
+              stroke-width="3.16667"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M21.1667 27.0834C19.2097 27.0834 17.0532 27.875 15.0851 28.8963C11.9216 30.5382 10.3398 31.36 9.56082 30.8359C8.78182 30.3134 8.92907 28.6905 9.22515 25.4462L9.29165 24.7084"
+              stroke="white"
+              stroke-width="3.16667"
+              stroke-linecap="round"
+            />
+          </svg>
+        </button>
+        <button className=" my-3 rounded-full hover:bg-[#3DBDA7] transition duration-200 ease-in px-3.5 py-4">
           <svg
             width="24"
             height="24"
@@ -58,6 +88,26 @@ const Navbar = () => {
             />
           </svg>
         </button>
+
+        <button className=" my-3 rounded-full hover:bg-[#3DBDA7] transition duration-200 ease-in px-3.5 py-4">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke="white"
+              stroke-width="2.17"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
+            />
+          </svg>
+        </button>
+
+       
       </div>
     </div>
   );
