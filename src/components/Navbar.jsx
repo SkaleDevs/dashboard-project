@@ -42,10 +42,10 @@ const Navbar = () => {
             />
           </svg>
         </button>
-        <button className=" my-3 rounded-full hover:bg-[#3DBDA7] transition duration-200 ease-in px-3.5 py-4">
+        <button className=" my-3 rounded-full hover:bg-[#3DBDA7] transition duration-200 ease-in px-3 py-3">
           <svg
-            width="30"
-            height="28"
+            width="28"
+            height="26"
             viewBox="0 0 36 33"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +71,7 @@ const Navbar = () => {
             />
           </svg>
         </button>
-        <button className=" my-3 rounded-full hover:bg-[#3DBDA7] transition duration-200 ease-in px-3.5 py-4">
+        <button className=" my-3 rounded-full hover:bg-[#3DBDA7] transition duration-200 ease-in px-3 py-3">
           <svg
             width="24"
             height="24"
@@ -89,7 +89,7 @@ const Navbar = () => {
           </svg>
         </button>
 
-        <button className=" my-3 rounded-full hover:bg-[#3DBDA7] transition duration-200 ease-in px-3.5 py-4">
+        <button className=" my-3 rounded-full hover:bg-[#3DBDA7] transition duration-200 ease-in px-3 py-3">
           <svg
             width="24"
             height="24"
