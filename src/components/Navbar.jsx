@@ -8,8 +8,8 @@ const Navbar = () => {
       <button className=" px-4">
         <img src={xboxLogo} alt="xbox logo" className="w-10 h-9" />
       </button>
-      <div className=" my-[140px] ml-[10.5px]">
-        <button className=" my-3 rounded-full hover:bg-[#3DBDA7] transition duration-200 ease-in px-3 py-3">
+      <div className=" my-[190px] ml-[10.5px]">
+        <button className=" my-3 rounded-full hover:bg-[#3DBDA7] focus:ring-2 focus:ring-[#3DBDA7] focus:shadow-lg focus:shadow-teal-400 transition duration-200 ease-in px-3 py-3">
           <svg
             width="24"
             height="24"
@@ -26,7 +26,7 @@ const Navbar = () => {
             />
           </svg>
         </button>
-        <button className=" my-3 rounded-full hover:bg-[#3DBDA7] transition duration-200 ease-in px-3 py-4">
+        <button className=" my-3 rounded-full hover:bg-[#3DBDA7] focus:ring-2 focus:ring-[#3DBDA7] focus:shadow-lg focus:shadow-teal-400 transition duration-200 ease-in px-3 py-4">
           <svg
             width="24"
             height="16"
@@ -42,7 +42,7 @@ const Navbar = () => {
             />
           </svg>
         </button>
-        <button className=" my-3 rounded-full hover:bg-[#3DBDA7] transition duration-200 ease-in px-3 py-3">
+        <button className=" my-3 rounded-full hover:bg-[#3DBDA7] focus:ring-2 focus:ring-[#3DBDA7] focus:shadow-lg focus:shadow-teal-400 transition duration-200 ease-in px-3 py-3">
           <svg
             width="28"
             height="26"
@@ -71,7 +71,7 @@ const Navbar = () => {
             />
           </svg>
         </button>
-        <button className=" my-3 rounded-full hover:bg-[#3DBDA7] transition duration-200 ease-in px-3 py-3">
+        <button className=" my-3 rounded-full hover:bg-[#3DBDA7] focus:ring-2 focus:ring-[#3DBDA7] focus:shadow-lg focus:shadow-teal-400 transition duration-200 ease-in px-3 py-3">
           <svg
             width="24"
             height="24"
@@ -89,7 +89,7 @@ const Navbar = () => {
           </svg>
         </button>
 
-        <button className=" my-3 rounded-full hover:bg-[#3DBDA7] transition duration-200 ease-in px-3 py-3">
+        <button className=" my-3 rounded-full hover:bg-[#3DBDA7] focus:ring-2 focus:ring-[#3DBDA7] focus:shadow-lg focus:shadow-teal-400 transition duration-200 ease-in px-3 py-3">
           <svg
             width="24"
             height="24"
