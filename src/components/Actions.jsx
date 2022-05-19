@@ -3,7 +3,7 @@ import profile from "../images/profile.png";
 
 const Actions = () => {
   return (
-    <div className=" ml-[630px] mb-[100]">
+    <div className=" ml-[770px] mb-[100]">
           <button className=" rounded-full hover:bg-[#3DBDA7] focus:ring-2 focus:ring-[#3DBDA7] focus:shadow-lg focus:shadow-teal-400 transition duration-200 ease-in px-4 py-3.5 bg-gradient-to-r from-[#1D1E22] to-[#1D1E22]">
             <svg
               width="18"
